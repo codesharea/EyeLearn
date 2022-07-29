@@ -1,6 +1,6 @@
 # EyeLearn
 
-<img src="imgs/Fig1.png" width="600">
+<img src="imgs/Fig1.png" width="700">
 
 ## Requirements
 Python 3.8,
