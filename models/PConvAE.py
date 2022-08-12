@@ -187,7 +187,7 @@ class PConvUnet(object):
         e_conv5, e_mask5 = encoder_layer(e_conv4, e_mask4, 512, 3)
         e_conv6, e_mask6 = encoder_layer(e_conv5, e_mask5, 512, 3)
         e_conv7, e_mask7 = encoder_layer(e_conv6, e_mask6, self.embed_dim, 3)
-        e_conv8, e_mask8 = encoder_layer(e_conv7, e_mask7, self.embed_dim, 3, act=)
+        e_conv8, e_mask8 = encoder_layer(e_conv7, e_mask7, self.embed_dim, 3, act=activation)
         
         print(self.encoder_reduction, "embed_dim", self.embed_dim)
         
