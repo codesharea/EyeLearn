@@ -48,7 +48,7 @@ preds = model_inpaint.predict([masked_maps, masks])
 ````
 
 #### Artifact correction examples: <br />
-<img src="imgs/examples.png" width="800">
+<img src="imgs/example.png" width="800">
 
 ## Citation
 Shi, M., Lokhande, A., Fazli, M.S., Sharma, V., Tian, Y., Luo, Y., Pasquale, L.R., Elze, T., Boland, M.V., Zebardast, N. Friedman, D.S., and Wang M., 2022. Artifact-Tolerant Clustering-Guided Contrastive Embedding Learning for Ophthalmic Images. arXiv preprint arXiv:2209.00773.
