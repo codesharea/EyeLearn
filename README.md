@@ -32,12 +32,12 @@ from models import rnflt2vec
 eyelearn = rnflt2vec.construct_model_from_args(args)
 model.load('EyeLearn_weights.72-0.0019.h5', train_bn=False, lr=0.00005)
 
-# Embedding model
+# embedding learning model
 encoder = eyelearn.model.get_layer('embed_model')
 model_embed = Model(inputs=encoder.inputs, 
                     outputs=encoder.get_layer('encoder_output').output)
                     
-# Artifact correction model                   
+# artifact correction model                   
 model_correction = Model(inputs=[eyelearn.model.inputs[0], eyelearn.model.inputs[1]],
                                  outputs=eyelearn.model.output[0])
                                  
