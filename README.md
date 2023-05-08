@@ -46,7 +46,7 @@ preds = model_inpaint.predict([masked_maps, masks]) $ artifact imputation
 ````
 
 Artifact imputation samples:
-<img src="imgs/Fig3.png" width="400">
+<img src="imgs/Fig3.png" width="800">
 
 ## Citation
 Shi, M., Lokhande, A., Fazli, M.S., Sharma, V., Tian, Y., Luo, Y., Pasquale, L.R., Elze, T., Boland, M.V., Zebardast, N. and Friedman, D.S., 2022. Artifact-Tolerant Clustering-Guided Contrastive Embedding Learning for Ophthalmic Images. arXiv preprint arXiv:2209.00773.
