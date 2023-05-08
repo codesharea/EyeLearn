@@ -43,11 +43,11 @@ model_correction = Model(inputs=[eyelearn.model.inputs[0], eyelearn.model.inputs
                                  
 # embedding inference
 embeds = model_embed.predict([masked_maps, masks]) 
-# artifact imputation
+# artifact corrections
 preds = model_inpaint.predict([masked_maps, masks]) 
 ````
 
-#### Artifact correction samples: <br />
+#### Artifact correction examples: <br />
 <img src="imgs/examples.png" width="800">
 
 ## Citation
