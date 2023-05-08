@@ -45,7 +45,7 @@ embeds = model_embed.predict([masked_maps, masks]) # embedding inference
 preds = model_inpaint.predict([masked_maps, masks]) $ artifact imputation
 ````
 
-#### Artifact imputation samples: <br />
+#### Artifact correction samples: <br />
 <img src="imgs/Fig3.png" width="800">
 
 ## Citation
