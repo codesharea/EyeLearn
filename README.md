@@ -9,7 +9,7 @@ tensorflow 2.4.0 <br/>
 opencv-python 4.5.5
 
 ## Dataset
-The glaucoma data includes 500 OCT RNFLT maps (dimension 225x225). The glaucoma label and visual field mean deviation (md) information are also included in the data.
+The dataset includes 500 OCT RNFLT maps (dimension 225x225). The glaucoma label and visual field mean deviation (md) information are also included in the data.
 
 Here are sample codes to visualize the rnflt map:
 ````
@@ -41,8 +41,10 @@ model_embed = Model(inputs=encoder.inputs,
 model_correction = Model(inputs=[eyelearn.model.inputs[0], eyelearn.model.inputs[1]],
                                  outputs=eyelearn.model.output[0])
                                  
-embeds = model_embed.predict([masked_maps, masks]) # embedding inference
-preds = model_inpaint.predict([masked_maps, masks]) $ artifact imputation
+# embedding inference
+embeds = model_embed.predict([masked_maps, masks]) 
+# artifact imputation
+preds = model_inpaint.predict([masked_maps, masks]) 
 ````
 
 #### Artifact correction samples: <br />
