@@ -9,7 +9,7 @@ tensorflow 2.4.0 <br/>
 opencv-python 4.5.5
 
 ## Dataset
-The dataset includes 500 OCT RNFLT maps (dimension 225x225) from 500 unique glaucoma patients. The glaucoma label and visual field mean deviation (md) information are also included in the data. The data can be downloaded from Harvard Dataverse by https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ENTBEE.
+The dataset includes 500 OCT RNFLT maps (dimension 225x225) from 500 unique glaucoma patients. The glaucoma label and visual field mean deviation (md) information are also included in the data. The dataset can be downloaded from Harvard Dataverse at https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ENTBEE.
 
 Here are sample codes to visualize the rnflt map:
 ````
